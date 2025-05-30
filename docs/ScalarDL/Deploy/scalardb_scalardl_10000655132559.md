@@ -27,26 +27,20 @@ Marketplace から取得ください。
 
 イメージの取得方法の詳細は、以下のドキュメントをご参照ください。
 
--   [How to get the container images of Scalar
-    products](https://scalardb.scalar-labs.com/docs/latest/scalar-kubernetes/HowToGetContainerImages?containers=container-images)
+-   [How to get the container images of Scalar products](https://scalardb.scalar-labs.com/docs/latest/scalar-kubernetes/HowToGetContainerImages?containers=container-images)
 
 BYOL
 型のライセンスをご利用の場合、ライセンスキーと各製品の証明書情報をプロパティファイルに指定する必要があります。各製品の証明書情報は、以下のドキュメントをご確認ください。  
 ご自分のライセンスキーが不明な場合には、担当営業にお問合せください。
 
--   [How to Configure a Product License
-    Key](https://scalardb.scalar-labs.com/docs/latest/scalar-licensing/)
+-   [How to Configure a Product License Key](https://scalardb.scalar-labs.com/docs/latest/scalar-licensing/)
 
 ## 関連する Scalar ドキュメント
 
--   [How to get the container images of Scalar
-    products](https://scalardb.scalar-labs.com/docs/latest/scalar-kubernetes/HowToGetContainerImages?containers=container-images)
--   [How to use the container
-    image](https://scalardb.scalar-labs.com/docs/latest/scalar-kubernetes/HowToUseContainerImages)
--   [How to Configure a Product License
-    Key](https://scalardb.scalar-labs.com/docs/latest/scalar-licensing/)
--   [How to install Scalar products through AWS
-    Marketplace](https://scalardb.scalar-labs.com/docs/latest/scalar-kubernetes/AwsMarketplaceGuide)
+-   [How to get the container images of Scalar products](https://scalardb.scalar-labs.com/docs/latest/scalar-kubernetes/HowToGetContainerImages?containers=container-images)
+-   [How to use the container image](https://scalardb.scalar-labs.com/docs/latest/scalar-kubernetes/HowToUseContainerImages)
+-   [How to Configure a Product License Key](https://scalardb.scalar-labs.com/docs/latest/scalar-licensing/)
+-   [How to install Scalar products through AWS Marketplace](https://scalardb.scalar-labs.com/docs/latest/scalar-kubernetes/AwsMarketplaceGuide)
 
 ## 参考情報 (外部ドキュメント)
 

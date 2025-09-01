@@ -14,7 +14,7 @@ ScalarDB Cluster で、よく利用される機能に関する設定例を教え
 
 本書では、以下の構成項目に関する設定方法と、それに関連する公式ドキュメントへのリンクを掲載しています。
 
-[設定のサンプルはこちら](./files/ScalarDB/Deploy/scalardb_configuration_commonly_used_features/scalardb-cluster-custom-values.yaml)
+[設定のサンプルはこちら](/files/ScalarDB/Deploy/scalardb_configuration_commonly_used_features/scalardb-cluster-custom-values.yaml)
 
 
 - ライセンス設定

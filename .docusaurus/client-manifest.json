@@ -1,0 +1,659 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "2589": [
+      1869,
+      2589
+    ],
+    "3042": [
+      3042
+    ],
+    "4760": [
+      7918,
+      4760
+    ],
+    "7918": [
+      4760,
+      7918
+    ],
+    "17896441": [
+      1869,
+      8401
+    ],
+    "41643604": [
+      4559
+    ],
+    "91574537": [
+      7830
+    ],
+    "main": [
+      1869,
+      5354,
+      8792
+    ],
+    "runtime~main": [
+      1869,
+      8792,
+      5354
+    ],
+    "05ac3970": [
+      6939
+    ],
+    "0edb7c80": [
+      2018
+    ],
+    "1726dc2c": [
+      5669
+    ],
+    "17e7fd80": [
+      905
+    ],
+    "26340a21": [
+      4136
+    ],
+    "28f15492": [
+      9304
+    ],
+    "364d62a9": [
+      750
+    ],
+    "372bd6b4": [
+      3289
+    ],
+    "42909f5d": [
+      780
+    ],
+    "4eb65b00": [
+      9687
+    ],
+    "55c98dc3": [
+      1667
+    ],
+    "59822d69": [
+      618
+    ],
+    "5e95c892": [
+      9647
+    ],
+    "62d1fbc6": [
+      9645
+    ],
+    "6a87c181": [
+      3314
+    ],
+    "6ee322cc": [
+      4958
+    ],
+    "76a1f23c": [
+      9260
+    ],
+    "78310f4f": [
+      6246
+    ],
+    "8a1f0bfb": [
+      4385
+    ],
+    "8dbb795e": [
+      9545
+    ],
+    "948d9aa9": [
+      784
+    ],
+    "99c3b280": [
+      3431
+    ],
+    "a748c103": [
+      8984
+    ],
+    "a7bd4aaa": [
+      7098
+    ],
+    "a94703ab": [
+      1869,
+      9048
+    ],
+    "aba21aa0": [
+      5742
+    ],
+    "adf8353a": [
+      4438
+    ],
+    "b218e561": [
+      1181
+    ],
+    "b65b9686": [
+      6041
+    ],
+    "b7cf5add": [
+      7683
+    ],
+    "c377a04b": [
+      3361
+    ],
+    "c69ef3af": [
+      1878
+    ],
+    "c88edb1c": [
+      3805
+    ],
+    "caa486af": [
+      9787
+    ],
+    "cac1672c": [
+      635
+    ],
+    "cd50ca64": [
+      9495
+    ],
+    "d3a40198": [
+      9785
+    ],
+    "d4e6276a": [
+      9912
+    ],
+    "d5ca6013": [
+      4048
+    ],
+    "dfca76b0": [
+      3480
+    ],
+    "efe3808c": [
+      6493
+    ],
+    "fb7d21b4": [
+      7295
+    ],
+    "fedd61cf": [
+      1356
+    ],
+    "styles": [
+      2589,
+      5354,
+      8401,
+      8792,
+      9048,
+      1869
+    ]
+  },
+  "assets": {
+    "618": {
+      "js": [
+        {
+          "file": "assets/js/59822d69.1dbea7e3.js",
+          "hash": "39c6879befc23c27",
+          "publicPath": "/docusaurus-test/assets/js/59822d69.1dbea7e3.js"
+        }
+      ]
+    },
+    "635": {
+      "js": [
+        {
+          "file": "assets/js/cac1672c.5bd66580.js",
+          "hash": "88a51e5348380489",
+          "publicPath": "/docusaurus-test/assets/js/cac1672c.5bd66580.js"
+        }
+      ]
+    },
+    "750": {
+      "js": [
+        {
+          "file": "assets/js/364d62a9.0e185861.js",
+          "hash": "9f65644423b5b8c4",
+          "publicPath": "/docusaurus-test/assets/js/364d62a9.0e185861.js"
+        }
+      ]
+    },
+    "780": {
+      "js": [
+        {
+          "file": "assets/js/42909f5d.fe4d65a3.js",
+          "hash": "e7a6a5521182c32c",
+          "publicPath": "/docusaurus-test/assets/js/42909f5d.fe4d65a3.js"
+        }
+      ]
+    },
+    "784": {
+      "js": [
+        {
+          "file": "assets/js/948d9aa9.b2929684.js",
+          "hash": "f59a9852472e679f",
+          "publicPath": "/docusaurus-test/assets/js/948d9aa9.b2929684.js"
+        }
+      ]
+    },
+    "905": {
+      "js": [
+        {
+          "file": "assets/js/17e7fd80.6004cb06.js",
+          "hash": "98817c64202b46e0",
+          "publicPath": "/docusaurus-test/assets/js/17e7fd80.6004cb06.js"
+        }
+      ]
+    },
+    "1181": {
+      "js": [
+        {
+          "file": "assets/js/b218e561.0c2cd831.js",
+          "hash": "c04454f3f9ae435e",
+          "publicPath": "/docusaurus-test/assets/js/b218e561.0c2cd831.js"
+        }
+      ]
+    },
+    "1356": {
+      "js": [
+        {
+          "file": "assets/js/fedd61cf.3c1dfa94.js",
+          "hash": "5e10701939986dd5",
+          "publicPath": "/docusaurus-test/assets/js/fedd61cf.3c1dfa94.js"
+        }
+      ]
+    },
+    "1667": {
+      "js": [
+        {
+          "file": "assets/js/55c98dc3.309c2ddf.js",
+          "hash": "5c3068209bc8b873",
+          "publicPath": "/docusaurus-test/assets/js/55c98dc3.309c2ddf.js"
+        }
+      ]
+    },
+    "1869": {
+      "css": [
+        {
+          "file": "assets/css/styles.3cfafddc.css",
+          "hash": "d4de5df9c54dfc8d",
+          "publicPath": "/docusaurus-test/assets/css/styles.3cfafddc.css"
+        }
+      ]
+    },
+    "1878": {
+      "js": [
+        {
+          "file": "assets/js/c69ef3af.01d58c09.js",
+          "hash": "6e493fb02ad4e6cc",
+          "publicPath": "/docusaurus-test/assets/js/c69ef3af.01d58c09.js"
+        }
+      ]
+    },
+    "2018": {
+      "js": [
+        {
+          "file": "assets/js/0edb7c80.4ac48030.js",
+          "hash": "08c59c544a3ce850",
+          "publicPath": "/docusaurus-test/assets/js/0edb7c80.4ac48030.js"
+        }
+      ]
+    },
+    "2589": {
+      "js": [
+        {
+          "file": "assets/js/2589.738fe867.js",
+          "hash": "8f95651373c104fb",
+          "publicPath": "/docusaurus-test/assets/js/2589.738fe867.js"
+        }
+      ]
+    },
+    "3042": {
+      "js": [
+        {
+          "file": "assets/js/3042.88e0893c.js",
+          "hash": "b57eecba7457ef94",
+          "publicPath": "/docusaurus-test/assets/js/3042.88e0893c.js"
+        }
+      ]
+    },
+    "3289": {
+      "js": [
+        {
+          "file": "assets/js/372bd6b4.875a6730.js",
+          "hash": "dd74cc118f8ed5ce",
+          "publicPath": "/docusaurus-test/assets/js/372bd6b4.875a6730.js"
+        }
+      ]
+    },
+    "3314": {
+      "js": [
+        {
+          "file": "assets/js/6a87c181.f72fedc0.js",
+          "hash": "9d7cda4aaa9a6d90",
+          "publicPath": "/docusaurus-test/assets/js/6a87c181.f72fedc0.js"
+        }
+      ]
+    },
+    "3361": {
+      "js": [
+        {
+          "file": "assets/js/c377a04b.e6e4d950.js",
+          "hash": "b236394657b2254b",
+          "publicPath": "/docusaurus-test/assets/js/c377a04b.e6e4d950.js"
+        }
+      ]
+    },
+    "3431": {
+      "js": [
+        {
+          "file": "assets/js/99c3b280.cc1b52d0.js",
+          "hash": "03cee4d37c3464f0",
+          "publicPath": "/docusaurus-test/assets/js/99c3b280.cc1b52d0.js"
+        }
+      ]
+    },
+    "3480": {
+      "js": [
+        {
+          "file": "assets/js/dfca76b0.fb975c23.js",
+          "hash": "62a15ca18f008819",
+          "publicPath": "/docusaurus-test/assets/js/dfca76b0.fb975c23.js"
+        }
+      ]
+    },
+    "3805": {
+      "js": [
+        {
+          "file": "assets/js/c88edb1c.1612326d.js",
+          "hash": "56fc98d1dc4f9ede",
+          "publicPath": "/docusaurus-test/assets/js/c88edb1c.1612326d.js"
+        }
+      ]
+    },
+    "4048": {
+      "js": [
+        {
+          "file": "assets/js/d5ca6013.f4c38055.js",
+          "hash": "6d67236fd402ae27",
+          "publicPath": "/docusaurus-test/assets/js/d5ca6013.f4c38055.js"
+        }
+      ]
+    },
+    "4136": {
+      "js": [
+        {
+          "file": "assets/js/26340a21.70d0c6c5.js",
+          "hash": "61555324419fc2d7",
+          "publicPath": "/docusaurus-test/assets/js/26340a21.70d0c6c5.js"
+        }
+      ]
+    },
+    "4385": {
+      "js": [
+        {
+          "file": "assets/js/8a1f0bfb.cc752612.js",
+          "hash": "082be944b0c72c5e",
+          "publicPath": "/docusaurus-test/assets/js/8a1f0bfb.cc752612.js"
+        }
+      ]
+    },
+    "4438": {
+      "js": [
+        {
+          "file": "assets/js/adf8353a.ec90a63b.js",
+          "hash": "ce4379a6f6ab03ab",
+          "publicPath": "/docusaurus-test/assets/js/adf8353a.ec90a63b.js"
+        }
+      ]
+    },
+    "4559": {
+      "js": [
+        {
+          "file": "assets/js/41643604.a132b3a2.js",
+          "hash": "adfe9e98b0406546",
+          "publicPath": "/docusaurus-test/assets/js/41643604.a132b3a2.js"
+        }
+      ]
+    },
+    "4760": {
+      "js": [
+        {
+          "file": "assets/js/4760.278efa87.js",
+          "hash": "3a1cfd36e93f504e",
+          "publicPath": "/docusaurus-test/assets/js/4760.278efa87.js"
+        }
+      ]
+    },
+    "4958": {
+      "js": [
+        {
+          "file": "assets/js/6ee322cc.1985f112.js",
+          "hash": "28720f944c434d25",
+          "publicPath": "/docusaurus-test/assets/js/6ee322cc.1985f112.js"
+        }
+      ]
+    },
+    "5354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.a2c86ff7.js",
+          "hash": "80c5dc6e4cf6af47",
+          "publicPath": "/docusaurus-test/assets/js/runtime~main.a2c86ff7.js"
+        }
+      ]
+    },
+    "5669": {
+      "js": [
+        {
+          "file": "assets/js/1726dc2c.6ddf2223.js",
+          "hash": "4637e424e61f5665",
+          "publicPath": "/docusaurus-test/assets/js/1726dc2c.6ddf2223.js"
+        }
+      ]
+    },
+    "5742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.cdedad4f.js",
+          "hash": "7e01523998d6701c",
+          "publicPath": "/docusaurus-test/assets/js/aba21aa0.cdedad4f.js"
+        }
+      ]
+    },
+    "6041": {
+      "js": [
+        {
+          "file": "assets/js/b65b9686.331460f5.js",
+          "hash": "53944ad0cb954629",
+          "publicPath": "/docusaurus-test/assets/js/b65b9686.331460f5.js"
+        }
+      ]
+    },
+    "6246": {
+      "js": [
+        {
+          "file": "assets/js/78310f4f.a4619938.js",
+          "hash": "4845a11820d20ba2",
+          "publicPath": "/docusaurus-test/assets/js/78310f4f.a4619938.js"
+        }
+      ]
+    },
+    "6493": {
+      "js": [
+        {
+          "file": "assets/js/efe3808c.3fd5a177.js",
+          "hash": "357650b19bcc5d84",
+          "publicPath": "/docusaurus-test/assets/js/efe3808c.3fd5a177.js"
+        }
+      ]
+    },
+    "6939": {
+      "js": [
+        {
+          "file": "assets/js/05ac3970.5849d19f.js",
+          "hash": "207104260bb8806f",
+          "publicPath": "/docusaurus-test/assets/js/05ac3970.5849d19f.js"
+        }
+      ]
+    },
+    "7098": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.571f006e.js",
+          "hash": "af4540e6f7a89efd",
+          "publicPath": "/docusaurus-test/assets/js/a7bd4aaa.571f006e.js"
+        }
+      ]
+    },
+    "7295": {
+      "js": [
+        {
+          "file": "assets/js/fb7d21b4.ec8811ca.js",
+          "hash": "d85be830d8f2a5c6",
+          "publicPath": "/docusaurus-test/assets/js/fb7d21b4.ec8811ca.js"
+        }
+      ]
+    },
+    "7683": {
+      "js": [
+        {
+          "file": "assets/js/b7cf5add.1e5261b3.js",
+          "hash": "f6939f0304ae9b41",
+          "publicPath": "/docusaurus-test/assets/js/b7cf5add.1e5261b3.js"
+        }
+      ]
+    },
+    "7830": {
+      "js": [
+        {
+          "file": "assets/js/91574537.b93160a7.js",
+          "hash": "2f2e140c28376732",
+          "publicPath": "/docusaurus-test/assets/js/91574537.b93160a7.js"
+        }
+      ]
+    },
+    "7918": {
+      "js": [
+        {
+          "file": "assets/js/7918.f21e34ee.js",
+          "hash": "de797536e795b62a",
+          "publicPath": "/docusaurus-test/assets/js/7918.f21e34ee.js"
+        }
+      ]
+    },
+    "8401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.019fc630.js",
+          "hash": "e535717e03d22c95",
+          "publicPath": "/docusaurus-test/assets/js/17896441.019fc630.js"
+        }
+      ]
+    },
+    "8792": {
+      "js": [
+        {
+          "file": "assets/js/main.92e8444a.js",
+          "hash": "de83834f01bad0c0",
+          "publicPath": "/docusaurus-test/assets/js/main.92e8444a.js"
+        }
+      ]
+    },
+    "8984": {
+      "js": [
+        {
+          "file": "assets/js/a748c103.2f120d87.js",
+          "hash": "b162082de217e5f7",
+          "publicPath": "/docusaurus-test/assets/js/a748c103.2f120d87.js"
+        }
+      ]
+    },
+    "9048": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.12266264.js",
+          "hash": "41098380ca53cc5c",
+          "publicPath": "/docusaurus-test/assets/js/a94703ab.12266264.js"
+        }
+      ]
+    },
+    "9260": {
+      "js": [
+        {
+          "file": "assets/js/76a1f23c.9b7526a1.js",
+          "hash": "2b47a92cb3ca498b",
+          "publicPath": "/docusaurus-test/assets/js/76a1f23c.9b7526a1.js"
+        }
+      ]
+    },
+    "9304": {
+      "js": [
+        {
+          "file": "assets/js/28f15492.cde04666.js",
+          "hash": "606f59c56d7388e4",
+          "publicPath": "/docusaurus-test/assets/js/28f15492.cde04666.js"
+        }
+      ]
+    },
+    "9495": {
+      "js": [
+        {
+          "file": "assets/js/cd50ca64.58d89a66.js",
+          "hash": "d109b6f2b9d5f7e1",
+          "publicPath": "/docusaurus-test/assets/js/cd50ca64.58d89a66.js"
+        }
+      ]
+    },
+    "9545": {
+      "js": [
+        {
+          "file": "assets/js/8dbb795e.cd76e956.js",
+          "hash": "8b6392aa15b10505",
+          "publicPath": "/docusaurus-test/assets/js/8dbb795e.cd76e956.js"
+        }
+      ]
+    },
+    "9645": {
+      "js": [
+        {
+          "file": "assets/js/62d1fbc6.8e2f907e.js",
+          "hash": "f87adacc4760633a",
+          "publicPath": "/docusaurus-test/assets/js/62d1fbc6.8e2f907e.js"
+        }
+      ]
+    },
+    "9647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.8b261c15.js",
+          "hash": "d8e4367b2d32f21b",
+          "publicPath": "/docusaurus-test/assets/js/5e95c892.8b261c15.js"
+        }
+      ]
+    },
+    "9687": {
+      "js": [
+        {
+          "file": "assets/js/4eb65b00.e7352d3f.js",
+          "hash": "4ce40ee158db48e7",
+          "publicPath": "/docusaurus-test/assets/js/4eb65b00.e7352d3f.js"
+        }
+      ]
+    },
+    "9785": {
+      "js": [
+        {
+          "file": "assets/js/d3a40198.c174ddbf.js",
+          "hash": "a4ea9444160d14c7",
+          "publicPath": "/docusaurus-test/assets/js/d3a40198.c174ddbf.js"
+        }
+      ]
+    },
+    "9787": {
+      "js": [
+        {
+          "file": "assets/js/caa486af.f8a1e8e3.js",
+          "hash": "5fd2b45f68d07989",
+          "publicPath": "/docusaurus-test/assets/js/caa486af.f8a1e8e3.js"
+        }
+      ]
+    },
+    "9912": {
+      "js": [
+        {
+          "file": "assets/js/d4e6276a.5b641e12.js",
+          "hash": "eb92067159000ad7",
+          "publicPath": "/docusaurus-test/assets/js/d4e6276a.5b641e12.js"
+        }
+      ]
+    }
+  }
+}

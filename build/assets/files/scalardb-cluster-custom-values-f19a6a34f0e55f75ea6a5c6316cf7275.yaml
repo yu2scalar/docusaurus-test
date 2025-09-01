@@ -1,0 +1,225 @@
+# Envoy Proxy Configuration - Load balancer and reverse proxy
+# Documentation: https://scalardb.scalar-labs.com/docs/latest/scalardb-cluster/getting-started-with-helm/#envoy
+envoy:
+  # Number of Envoy proxy instances for high availability
+  replicaCount: 1
+  # Enable Envoy proxy service
+  enabled: true
+  service:
+    # Kubernetes service type to expose externally
+    type: LoadBalancer
+
+  # TLS encryption settings for Envoy proxy
+  tls:
+    downstream:
+      enabled: true
+      certChainSecret: "envoy-tls-cert"
+      privateKeySecret: "envoy-tls-key"
+    upstream:
+      enabled: true
+      overrideAuthority: "cluster.coe.scalar.local"
+      caRootCertSecret: "scalardb-cluster-tls-ca"
+
+# ScalarDB Cluster Configuration - Main database cluster settings
+scalardbCluster:
+  # Replica count options:
+  #   - 1: Single node (development/testing)
+  #   - 3+: Multi-node cluster (production, odd numbers recommended for consensus)
+  replicaCount: 1
+
+  # Resource allocation per ScalarDB Cluster pod
+  resources:
+    # Minimum guaranteed resources
+    requests:
+      # 2 CPU cores minimum
+      cpu: 200m
+      # 4GB RAM minimum
+      memory: 496Mi
+    # Maximum resource limits
+    limits:
+      # 2 CPU cores maximum
+      cpu: 200m
+      # 4GB RAM maximum
+      memory: 496Mi
+
+  # Log level options:
+  #   - DEBUG: Detailed debugging information
+  #   - INFO: General information messages
+  #   - WARN: Warning messages
+  #   - ERROR: Error messages only
+  logLevel: INFO
+
+  # ScalarDB Cluster node-level configuration properties
+  scalardbClusterNodeProperties: |
+
+    # Cluster Membership Configuration - For Kubernetes deployment
+    # Documentation: https://scalardb.scalar-labs.com/docs/latest/scalardb-cluster/getting-started-with-helm/
+    # Available membership types:
+    #   - KUBERNETES: Use Kubernetes endpoints for cluster discovery
+    #   - STATIC: Use static list of cluster nodes
+    scalar.db.cluster.membership.type=KUBERNETES
+
+    # Kubernetes endpoint configuration for cluster membership
+    # K8s namespace for endpoint
+    scalar.db.cluster.membership.kubernetes.endpoint.namespace_name=${env:SCALAR_DB_CLUSTER_MEMBERSHIP_KUBERNETES_ENDPOINT_NAMESPACE_NAME}
+    # K8s endpoint name
+    scalar.db.cluster.membership.kubernetes.endpoint.name=${env:SCALAR_DB_CLUSTER_MEMBERSHIP_KUBERNETES_ENDPOINT_NAME}
+
+    # Transaction Management Configuration
+    # Documentation:
+    #   - https://scalardb.scalar-labs.com/docs/latest/configurations/#general-configurations
+    #   - https://scalardb.scalar-labs.com/docs/latest/api-guide/#transaction-api
+    # Available options:
+    #   - consensus-commit: Full ACID transactions with consensus-based commit protocol
+    #   - single-crud-operation: To run non-transactional storage operations
+    scalar.db.transaction_manager=consensus-commit
+
+    # Transaction Isolation Level Configuration
+    # Available isolation levels for consensus-commit transactions:
+    #   - SNAPSHOT: Provides Snapshot isolation (default, recommended for most use cases)
+    #   - SERIALIZABLE: Provides Serializable isolation (may impact performance)
+    #   - READ_COMMITTED: Provides Read Committed isolation
+    scalar.db.consensus_commit.isolation_level=SNAPSHOT
+
+    # Licensing Configuration
+    # Documentation:
+    #   - https://scalardb.scalar-labs.com/docs/latest/scalar-licensing/#scalardb-enterprise-edition
+    scalar.db.cluster.node.licensing.license_key={"organization_name":"CoE","product_name":"ScalarDB Cluster","product_version":3,"license_type":"trial","signature":"MEQCIEEpa3Irx7BI+JDe9mBaeddgyx7NbkEgDyt+gtENLX+qAiAm4crpNqyIr0mQ54J7GJW8gCbJAfFm9KIkYuOlLHOsSQ==","expiration_date_time":"2025-09-17T11:11:44.410+09:00[Asia/Tokyo]"}'
+
+    # license_check_cert_pem
+    scalar.db.cluster.node.licensing.license_check_cert_pem=-----\nMIICIzCCAcigAwIBAgIIKT9LIGX1TJQwCgYIKoZIzj0EAwIwZzELMAkGA1UEBhMC\nSlAxDjAMBgNVBAgTBVRva3lvMREwDwYDVQQHEwhTaGluanVrdTEVMBMGA1UEChMM\nU2NhbGFyLCBJbmMuMR4wHAYDVQQDExV0cmlhbC5zY2FsYXItbGFicy5jb20wHhcN\nMjMxMTE2MDcxMDM5WhcNMjQwMjE1MTMxNTM5WjBnMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xETAPBgNVBAcTCFNoaW5qdWt1MRUwEwYDVQQKEwxTY2FsYXIs\nIEluYy4xHjAcBgNVBAMTFXRyaWFsLnNjYWxhci1sYWJzLmNvbTBZMBMGByqGSM49\nAgEGCCqGSM49AwEHA0IABBSkIYAk7r5FRDf5qRQ7dbD3ib5g3fb643h4hqCtK+lC\nwM4AUr+PPRoquAy+Ey2sWEvYrWtl2ZjiYyyiZw8slGCjXjBcMA4GA1UdDwEB/wQE\nAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIw\nADAdBgNVHQ4EFgQUbFyOWFrsjkkOvjw6vK3gGUADGOcwCgYIKoZIzj0EAwIDSQAw\nRgIhAKwigOb74z9BdX1+dUpeVG8WrzLTIqdIU0w+9jhAueXoAiEA6cniJ3qsP4j7\nsck62kHnFpH1fCUOc/b/B8ZtfeXI2Iw=\n-----END CERTIFICATE-----
+
+    # Authentication Configuration
+    # Documentation: https://scalardb.scalar-labs.com/docs/latest/scalardb-cluster/scalardb-auth-with-sql/
+    # Authentication options:
+    #   - true: Enable authentication and authorization (recommended for production)
+    #   - false: Disable authentication (development/testing only)
+    scalar.db.cluster.auth.enabled=true
+
+    # SQL Interface Configuration
+    # Documentation: https://scalardb.scalar-labs.com/docs/latest/scalardb-cluster/scalardb-cluster-configurations/#sql-related-configurations
+    # SQL interface options:
+    #   - true: Enable ScalarDB SQL interface for SQL queries
+    #   - false: Disable SQL interface (use only native ScalarDB API)
+    scalar.db.sql.enabled=true
+
+    # TLS Configuration for ScalarDB application internal behavior
+    # Documentation: https://scalardb.scalar-labs.com/docs/latest/scalardb-cluster/wire-encryption/
+    # TLS options:
+    #   - true: Enable TLS encryption for inter-node communication
+    #   - false: Disable TLS (use only in secure networks)
+    scalar.db.cluster.tls.enabled=true
+    scalar.db.cluster.tls.ca_root_cert_path=/tls/scalardb-cluster/certs/ca.crt
+    scalar.db.cluster.node.tls.cert_chain_path=/tls/scalardb-cluster/certs/tls.crt
+    scalar.db.cluster.node.tls.private_key_path=/tls/scalardb-cluster/certs/tls.key
+    scalar.db.cluster.tls.override_authority="cluster.coe.scalar.local"
+
+    # Encryption Configuration for ScalarDB application internal behavior
+    # Documentation: https://scalardb.scalar-labs.com/docs/latest/scalardb-cluster/encrypt-wire-communications
+    # Encryption at rest options:
+    #   - true: Enable data encryption at rest
+    #   - false: Disable encryption (data stored in plain text)
+    scalar.db.cluster.encryption.enabled=true
+    scalar.db.cluster.encryption.type=self
+    scalar.db.cluster.encryption.delete_data_encryption_key_on_drop_table.enabled=false
+    scalar.db.cluster.encryption.self.kubernetes.secret.namespace_name=default
+
+    # Storage Configuration - Multi-storage setup for different database backends
+    # Documentation: https://scalardb.scalar-labs.com/docs/latest/multi-storage-transactions/
+    # Available storage types:
+    #   - multi-storage: Multiple storage backends with namespace mapping
+    scalar.db.storage=multi-storage
+    # Define available storage backend names
+    scalar.db.multi_storage.storages=mysql,postgres
+
+    # Definitions for each storage: scalar.db.multi_storage.storages.<one of scalar.db.multi_storage.storages>.<parameter name>
+    # mysql Storage Configuration
+    # JDBC driver options for MySQL:
+    #   - jdbc: Standard JDBC driver for MySQL/MariaDB
+    scalar.db.multi_storage.storages.mysql.storage=jdbc
+    # Please change the following connection details according to your environment
+    # MySQL connection URL
+    scalar.db.multi_storage.storages.mysql.contact_points=jdbc:mysql://mysql.coe.scalar.local:3306/storage_mysql
+    # MySQL username from environment
+    scalar.db.multi_storage.storages.mysql.username=scalaradmin
+    # MySQL password from environment
+    scalar.db.multi_storage.storages.mysql.password=scalaradmin
+
+    # Cross-partition scan options (performance vs consistency trade-offs):
+    #   - true: Enable cross-partition operations (may impact performance)
+    #   - false: Disable cross-partition operations (better performance, limited queries)
+    scalar.db.multi_storage.storages.mysql.cross_partition_scan.enabled=true
+    scalar.db.multi_storage.storages.mysql.cross_partition_scan.filtering.enabled=true
+    scalar.db.multi_storage.storages.mysql.cross_partition_scan.ordering.enabled=true
+
+    # postgres Storage Configuration
+    # JDBC driver options for PostgreSQL:
+    #   - jdbc: Standard JDBC driver for PostgreSQL
+    scalar.db.multi_storage.storages.postgres.storage=jdbc
+    # Please change the following connection details according to your environment
+    # PostgreSQL connection URL
+    scalar.db.multi_storage.storages.postgres.contact_points=jdbc:postgresql://postgres.coe.scalar.local:5432/storage_postgres
+    # PostgreSQL username from environment
+    scalar.db.multi_storage.storages.postgres.username=scalaradmin
+    # PostgreSQL password from environment
+    scalar.db.multi_storage.storages.postgres.password=scalaradmin
+
+    # Cross-partition scan options (performance vs consistency trade-offs):
+    #   - true: Enable cross-partition operations (may impact performance)
+    #   - false: Disable cross-partition operations (better performance, limited queries)
+    scalar.db.multi_storage.storages.postgres.cross_partition_scan.enabled=true
+    scalar.db.multi_storage.storages.postgres.cross_partition_scan.filtering.enabled=true
+    scalar.db.multi_storage.storages.postgres.cross_partition_scan.ordering.enabled=true
+
+    # Namespace to Storage Mapping - Route different namespaces to specific storage backends
+    # Format: namespace1:storage1,namespace2:storage2
+    # Special namespaces:
+    #   - coordinator: Used for transaction coordination metadata
+    # Please change the namespace mapping according to your application requirements
+    scalar.db.multi_storage.namespace_mapping=coordinator:postgres,ns_postgres:postgres,ns_mysql:mysql
+
+    # Default Storage Backend
+    # Fallback storage for namespaces not explicitly mapped above
+    scalar.db.multi_storage.default_storage=postgres
+
+  # Log Collection Configuration (Promtail for Grafana Loki)
+  promtail:
+    # Node selector options:
+    #   - Use node labels to constrain pod scheduling
+    #   - Common patterns: dedicated nodes, node pools, availability zones
+    # Run promtail only on dedicated ScalarDB nodes
+    nodeSelector:
+      # ScalarDB dedicated node selector
+      scalar-labs.com/dedicated-node: scalardb-cluster
+
+  # TLS Configuration for ScalarDB Cluster gRPC API (health probes, inter-node communication)
+  # Documentation: https://scalardb.scalar-labs.com/docs/latest/scalardb-cluster/encrypt-wire-communications
+  # Infrastructure-level TLS options:
+  #   - true: Enable TLS for gRPC endpoints and health checks
+  #   - false: Disable TLS at infrastructure level
+  tls:
+    # Enable TLS for gRPC endpoints and health checks
+    enabled: true
+    # CA root certificate secret name
+    caRootCertSecret: "scalardb-cluster-tls-ca"
+    # Certificate chain secret name
+    certChainSecret: "scalardb-cluster-tls-cert"
+    # Private key secret name
+    privateKeySecret: "scalardb-cluster-tls-key"
+    # Override authority for TLS verification
+    overrideAuthority: "cluster.coe.scalar.local"
+
+  # Data Encryption Configuration (affects RBAC permissions and volume mounts)
+  # Documentation: https://scalardb.scalar-labs.com/docs/latest/scalardb-cluster/data-encryption/
+  # Infrastructure-level encryption options:
+  #   - true: Enable encryption support in Kubernetes (creates RBAC, volumes)
+  #   - false: Disable encryption infrastructure support
+  encryption:
+    # Enable encryption support in Kubernetes
+    enabled: true
+    # Encryption type (self-managed)
+    type: self
+
+  # Kubernetes Secret Configuration
+  # Name of K8s secret containing database credentials
+  secretName: "scalardb-credentials-secret"

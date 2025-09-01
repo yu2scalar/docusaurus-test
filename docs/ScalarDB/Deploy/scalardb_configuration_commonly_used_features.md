@@ -1,4 +1,4 @@
-# [利用方法] ScalarDB Cluster - 設定サンプル
+# [利用方法] ScalarDB Cluster - よく利用される機能に関する設定例
 
 updated: 2025-08-26 19:48:19 JST
 

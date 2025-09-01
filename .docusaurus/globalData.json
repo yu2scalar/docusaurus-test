@@ -1,0 +1,236 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docusaurus-test/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docusaurus-test/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "index",
+              "path": "/docusaurus-test/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Deploy/index",
+              "path": "/docusaurus-test/ScalarDB/Deploy/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Deploy/scalardb_10399920368143",
+              "path": "/docusaurus-test/ScalarDB/Deploy/scalardb_10399920368143",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Deploy/scalardb_10646308137487",
+              "path": "/docusaurus-test/ScalarDB/Deploy/scalardb_10646308137487",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Deploy/scalardb_9121878751247",
+              "path": "/docusaurus-test/ScalarDB/Deploy/scalardb_9121878751247",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Deploy/scalardb_9122052197135",
+              "path": "/docusaurus-test/ScalarDB/Deploy/scalardb_9122052197135",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Deploy/scalardb_9789940973583",
+              "path": "/docusaurus-test/ScalarDB/Deploy/scalardb_9789940973583",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Deploy/scalardb_configuration_commonly_used_features",
+              "path": "/docusaurus-test/ScalarDB/Deploy/scalardb_configuration_commonly_used_features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Deploy/scalardb_scalardl_10000655132559",
+              "path": "/docusaurus-test/ScalarDB/Deploy/scalardb_scalardl_10000655132559",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Deploy/scalardb_scalardl_10400226755727",
+              "path": "/docusaurus-test/ScalarDB/Deploy/scalardb_scalardl_10400226755727",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Develop/index",
+              "path": "/docusaurus-test/ScalarDB/Develop/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/General/index",
+              "path": "/docusaurus-test/ScalarDB/General/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/General/no_label_11042037516559",
+              "path": "/docusaurus-test/ScalarDB/General/no_label_11042037516559",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/General/no_label_9114310783503",
+              "path": "/docusaurus-test/ScalarDB/General/no_label_9114310783503",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/General/no_label_9138744137487",
+              "path": "/docusaurus-test/ScalarDB/General/no_label_9138744137487",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/General/scalardb_10265940204687",
+              "path": "/docusaurus-test/ScalarDB/General/scalardb_10265940204687",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/General/scalardb_10296869633295",
+              "path": "/docusaurus-test/ScalarDB/General/scalardb_10296869633295",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/General/scalardb_10383203050639",
+              "path": "/docusaurus-test/ScalarDB/General/scalardb_10383203050639",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/General/scalardb_10453095101583",
+              "path": "/docusaurus-test/ScalarDB/General/scalardb_10453095101583",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Manage/index",
+              "path": "/docusaurus-test/ScalarDB/Manage/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Manage/scalardb_10060576102415",
+              "path": "/docusaurus-test/ScalarDB/Manage/scalardb_10060576102415",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Manage/scalardb_9114340163471",
+              "path": "/docusaurus-test/ScalarDB/Manage/scalardb_9114340163471",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Manage/scalardb_9121803843983",
+              "path": "/docusaurus-test/ScalarDB/Manage/scalardb_9121803843983",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Manage/scalardb_9157435200015",
+              "path": "/docusaurus-test/ScalarDB/Manage/scalardb_9157435200015",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Manage/scalardb_9331372881423",
+              "path": "/docusaurus-test/ScalarDB/Manage/scalardb_9331372881423",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDB/Troubleshoot/index",
+              "path": "/docusaurus-test/ScalarDB/Troubleshoot/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDL/Deploy/index",
+              "path": "/docusaurus-test/ScalarDL/Deploy/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDL/Deploy/scalardb_scalardl_10000655132559",
+              "path": "/docusaurus-test/ScalarDL/Deploy/scalardb_scalardl_10000655132559",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDL/Deploy/scalardb_scalardl_10400226755727",
+              "path": "/docusaurus-test/ScalarDL/Deploy/scalardb_scalardl_10400226755727",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDL/Develop/index",
+              "path": "/docusaurus-test/ScalarDL/Develop/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDL/Develop/scalardl_10612598636175",
+              "path": "/docusaurus-test/ScalarDL/Develop/scalardl_10612598636175",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDL/General/index",
+              "path": "/docusaurus-test/ScalarDL/General/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDL/General/no_label_11042037516559",
+              "path": "/docusaurus-test/ScalarDL/General/no_label_11042037516559",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDL/General/no_label_9114310783503",
+              "path": "/docusaurus-test/ScalarDL/General/no_label_9114310783503",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDL/General/scalardl_10300674659599",
+              "path": "/docusaurus-test/ScalarDL/General/scalardl_10300674659599",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDL/Manage/index",
+              "path": "/docusaurus-test/ScalarDL/Manage/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDL/Troubleshoot/index",
+              "path": "/docusaurus-test/ScalarDL/Troubleshoot/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDL/Troubleshoot/scalardl_10488067797007",
+              "path": "/docusaurus-test/ScalarDL/Troubleshoot/scalardl_10488067797007",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDL/Troubleshoot/scalardl_10646780246927",
+              "path": "/docusaurus-test/ScalarDL/Troubleshoot/scalardl_10646780246927",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ScalarDL/Troubleshoot/scalardl_10647393723407",
+              "path": "/docusaurus-test/ScalarDL/Troubleshoot/scalardl_10647393723407",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docusaurus-test/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  },
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1756712048042.json",
+        "lunrIndex": "lunr-index-1756712048042.json"
+      }
+    }
+  }
+}

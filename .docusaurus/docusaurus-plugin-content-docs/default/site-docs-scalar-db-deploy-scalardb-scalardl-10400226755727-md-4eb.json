@@ -1,0 +1,23 @@
+{
+  "id": "ScalarDB/Deploy/scalardb_scalardl_10400226755727",
+  "title": "[一般情報] AWS Marketplaceからの Scalar 製品のコンテナイメージの取得方法について",
+  "description": "updated35:53 JST",
+  "source": "@site/docs/ScalarDB/Deploy/scalardb_scalardl_10400226755727.md",
+  "sourceDirName": "ScalarDB/Deploy",
+  "slug": "/ScalarDB/Deploy/scalardb_scalardl_10400226755727",
+  "permalink": "/docusaurus-test/ScalarDB/Deploy/scalardb_scalardl_10400226755727",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[利用方法] Scalar 製品のパッケージの取得、およびライセンスの有効化手順について",
+    "permalink": "/docusaurus-test/ScalarDB/Deploy/scalardb_scalardl_10000655132559"
+  },
+  "next": {
+    "title": "Develop",
+    "permalink": "/docusaurus-test/ScalarDB/Develop/"
+  }
+}

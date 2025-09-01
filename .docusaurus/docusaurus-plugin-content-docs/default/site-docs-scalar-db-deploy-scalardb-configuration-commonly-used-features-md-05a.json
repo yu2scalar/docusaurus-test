@@ -1,0 +1,23 @@
+{
+  "id": "ScalarDB/Deploy/scalardb_configuration_commonly_used_features",
+  "title": "[利用方法] ScalarDB Cluster - 設定サンプル",
+  "description": "updated48:19 JST",
+  "source": "@site/docs/ScalarDB/Deploy/scalardb_configuration_commonly_used_features.md",
+  "sourceDirName": "ScalarDB/Deploy",
+  "slug": "/ScalarDB/Deploy/scalardb_configuration_commonly_used_features",
+  "permalink": "/docusaurus-test/ScalarDB/Deploy/scalardb_configuration_commonly_used_features",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[利用方法] ScalarDB Cluster のバックエンドに複数のデータベースを接続する方法について",
+    "permalink": "/docusaurus-test/ScalarDB/Deploy/scalardb_9789940973583"
+  },
+  "next": {
+    "title": "[利用方法] Scalar 製品のパッケージの取得、およびライセンスの有効化手順について",
+    "permalink": "/docusaurus-test/ScalarDB/Deploy/scalardb_scalardl_10000655132559"
+  }
+}

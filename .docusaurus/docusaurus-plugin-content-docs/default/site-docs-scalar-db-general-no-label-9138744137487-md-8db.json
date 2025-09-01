@@ -1,0 +1,23 @@
+{
+  "id": "ScalarDB/General/no_label_9138744137487",
+  "title": "[一般情報] ScalarDB Clusterの互換性について",
+  "description": "updated24:59 JST",
+  "source": "@site/docs/ScalarDB/General/no_label_9138744137487.md",
+  "sourceDirName": "ScalarDB/General",
+  "slug": "/ScalarDB/General/no_label_9138744137487",
+  "permalink": "/docusaurus-test/ScalarDB/General/no_label_9138744137487",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[一般情報] Scalar製品のバージョンルールについて",
+    "permalink": "/docusaurus-test/ScalarDB/General/no_label_9114310783503"
+  },
+  "next": {
+    "title": "[利用方法] ScalarDB Cluster SQL CLI 上にて、実行結果の表示形式を変更する方法について",
+    "permalink": "/docusaurus-test/ScalarDB/General/scalardb_10265940204687"
+  }
+}

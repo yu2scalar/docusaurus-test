@@ -151,9 +151,9 @@ scalar.db.storage
 ```
 の設定は、
 ```
-scalar.db.multi_storage.storages.<strage_name>.storage
+scalar.db.multi_storage.storages.`<strage_name>`.storage
 ```
-のように multi_storage.storages.<strage_name> が付加された表記となります。
+のように multi_storage.storages.`<strage_name>` が付加された表記となります。
 
 
 また、本書の例では、 cross_partition_scan を有効にしています。ordering の設定は、JDBCデータベースのみ利用可能です。

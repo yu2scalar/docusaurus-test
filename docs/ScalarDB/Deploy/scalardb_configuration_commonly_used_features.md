@@ -162,6 +162,8 @@ scalar.db.multi_storage.storages.`<strage_name>`.storage
 
 まずは、mysql に関する設定例です。
 
+記載のデータベースのコンタクトポイント、データベース名、ユーザ名、パスワードはサンプル設定です。お手元の環境に合わせて変更してください。
+
 ```
     # Definitions for each storage: scalar.db.multi_storage.storages.<one of scalar.db.multi_storage.storages>.<parameter name>
     # mysql Storage Configuration
@@ -187,6 +189,9 @@ scalar.db.multi_storage.storages.`<strage_name>`.storage
     scalar.db.multi_storage.storages.mysql.cross_partition_scan.ordering.enabled=true
 ```
 続いてpostgres に関する設定です。
+
+記載のデータベースのコンタクトポイント、データベース名、ユーザ名、パスワードはサンプル設定です。お手元の環境に合わせて変更してください。
+
 ```
     # postgres Storage Configuration
     # JDBC driver options for PostgreSQL:

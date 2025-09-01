@@ -39,7 +39,7 @@ ScalarDB Cluster で、よく利用される機能に関する設定例を教え
     # Licensing Configuration
     # Documentation:
     #   - https://scalardb.scalar-labs.com/docs/latest/scalar-licensing/#scalardb-enterprise-edition
-    scalar.db.cluster.node.licensing.license_key={"organization_name":"CoE / Test","expiration_date_time":"2024-10-10T11:15:15.769+09:00[Asia/Tokyo]","product_name":"ScalarDB Cluster","product_version":3,"license_type":"trial","signature":"MEUCIQDcSjxJus31SrLdyyZs+gyQiGvf+k8auszMnKIA+nEiTgIgIdv8TrEj3wx8AX0nac79gMmba8xo6aXno/WT0blZs/g="}
+    scalar.db.cluster.node.licensing.license_key={"organization_name":"CoE / Test","expiration_date_time":"2024-10-10T11:15:15.769+09:00[Asia/Tokyo]","product_name":"ScalarDB Cluster","product_version":3,"license_type":"trial","signature":"MEUCIQ......../g="}
 
     # license_check_cert_pem
     scalar.db.cluster.node.licensing.license_check_cert_pem=-----\nMIICIzCCAcigAwIBAgIIKT9LIGX1TJQwCgYIKoZIzj0EAwIwZzELMAkGA1UEBhMC\nSlAxDjAMBgNVBAgTBVRva3lvMREwDwYDVQQHEwhTaGluanVrdTEVMBMGA1UEChMM\nU2NhbGFyLCBJbmMuMR4wHAYDVQQDExV0cmlhbC5zY2FsYXItbGFicy5jb20wHhcN\nMjMxMTE2MDcxMDM5WhcNMjQwMjE1MTMxNTM5WjBnMQswCQYDVQQGEwJKUDEOMAwG\nA1UECBMFVG9reW8xETAPBgNVBAcTCFNoaW5qdWt1MRUwEwYDVQQKEwxTY2FsYXIs\nIEluYy4xHjAcBgNVBAMTFXRyaWFsLnNjYWxhci1sYWJzLmNvbTBZMBMGByqGSM49\nAgEGCCqGSM49AwEHA0IABBSkIYAk7r5FRDf5qRQ7dbD3ib5g3fb643h4hqCtK+lC\nwM4AUr+PPRoquAy+Ey2sWEvYrWtl2ZjiYyyiZw8slGCjXjBcMA4GA1UdDwEB/wQE\nAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIw\nADAdBgNVHQ4EFgQUbFyOWFrsjkkOvjw6vK3gGUADGOcwCgYIKoZIzj0EAwIDSQAw\nRgIhAKwigOb74z9BdX1+dUpeVG8WrzLTIqdIU0w+9jhAueXoAiEA6cniJ3qsP4j7\nsck62kHnFpH1fCUOc/b/B8ZtfeXI2Iw=\n-----END CERTIFICATE-----

@@ -158,9 +158,10 @@ scalar.db.multi_storage.storages.`<strage_name>`.storage
 
 また、本書の例では、 cross_partition_scan を有効にしています。ordering の設定は、JDBCデータベースのみ利用可能です。
 -   [Cross-partition scan configurations](https://scalardb.scalar-labs.com/docs/latest/scalardb-cluster/scalardb-cluster-configurations#cross-partition-scan-configurations)
--
 
 まずは、mysql に関する設定例です。
+
+記載のデータベースのコンタクトポイント、データベース名、ユーザ名、パスワードはサンプル設定です。お手元の環境に合わせて変更してください。
 
 ```
     # Definitions for each storage: scalar.db.multi_storage.storages.<one of scalar.db.multi_storage.storages>.<parameter name>
@@ -187,6 +188,9 @@ scalar.db.multi_storage.storages.`<strage_name>`.storage
     scalar.db.multi_storage.storages.mysql.cross_partition_scan.ordering.enabled=true
 ```
 続いてpostgres に関する設定です。
+
+記載のデータベースのコンタクトポイント、データベース名、ユーザ名、パスワードはサンプル設定です。お手元の環境に合わせて変更してください。
+
 ```
     # postgres Storage Configuration
     # JDBC driver options for PostgreSQL:

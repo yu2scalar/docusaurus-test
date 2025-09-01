@@ -1,0 +1,23 @@
+{
+  "id": "ScalarDB/Deploy/scalardb_scalardl_10000655132559",
+  "title": "[利用方法] Scalar 製品のパッケージの取得、およびライセンスの有効化手順について",
+  "description": "updated45:19 JST",
+  "source": "@site/docs/ScalarDB/Deploy/scalardb_scalardl_10000655132559.md",
+  "sourceDirName": "ScalarDB/Deploy",
+  "slug": "/ScalarDB/Deploy/scalardb_scalardl_10000655132559",
+  "permalink": "/docusaurus-test/ScalarDB/Deploy/scalardb_scalardl_10000655132559",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[利用方法] ScalarDB Cluster - 設定サンプル",
+    "permalink": "/docusaurus-test/ScalarDB/Deploy/scalardb_configuration_commonly_used_features"
+  },
+  "next": {
+    "title": "[一般情報] AWS Marketplaceからの Scalar 製品のコンテナイメージの取得方法について",
+    "permalink": "/docusaurus-test/ScalarDB/Deploy/scalardb_scalardl_10400226755727"
+  }
+}

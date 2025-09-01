@@ -1,0 +1,23 @@
+{
+  "id": "ScalarDB/Manage/scalardb_9157435200015",
+  "title": "[環境構築] ScalarDB Cluster で必要なストレージ要件について",
+  "description": "updated01:49 JST",
+  "source": "@site/docs/ScalarDB/Manage/scalardb_9157435200015.md",
+  "sourceDirName": "ScalarDB/Manage",
+  "slug": "/ScalarDB/Manage/scalardb_9157435200015",
+  "permalink": "/docusaurus-test/ScalarDB/Manage/scalardb_9157435200015",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[環境構築] ScalarDB Cluster のスケールアウト／スケールイン方法について",
+    "permalink": "/docusaurus-test/ScalarDB/Manage/scalardb_9121803843983"
+  },
+  "next": {
+    "title": "[環境構築] ScalarDB Cluster の監視方法",
+    "permalink": "/docusaurus-test/ScalarDB/Manage/scalardb_9331372881423"
+  }
+}

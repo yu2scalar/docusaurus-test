@@ -1,0 +1,23 @@
+{
+  "id": "ScalarDL/Develop/index",
+  "title": "Develop",
+  "description": "",
+  "source": "@site/docs/ScalarDL/Develop/index.md",
+  "sourceDirName": "ScalarDL/Develop",
+  "slug": "/ScalarDL/Develop/",
+  "permalink": "/docusaurus-test/ScalarDL/Develop/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[一般情報] AWS Marketplaceからの Scalar 製品のコンテナイメージの取得方法について",
+    "permalink": "/docusaurus-test/ScalarDL/Deploy/scalardb_scalardl_10400226755727"
+  },
+  "next": {
+    "title": "[利用方法]  ScalarDLの Function で使用するテーブルの作成方法を教えてください",
+    "permalink": "/docusaurus-test/ScalarDL/Develop/scalardl_10612598636175"
+  }
+}

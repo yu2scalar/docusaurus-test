@@ -1,0 +1,23 @@
+{
+  "id": "ScalarDL/General/no_label_9114310783503",
+  "title": "[一般情報] Scalar製品のバージョンルールについて",
+  "description": "updated25:18 JST",
+  "source": "@site/docs/ScalarDL/General/no_label_9114310783503.md",
+  "sourceDirName": "ScalarDL/General",
+  "slug": "/ScalarDL/General/no_label_9114310783503",
+  "permalink": "/docusaurus-test/ScalarDL/General/no_label_9114310783503",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[利用方法] Scalar テクニカルサポート利用ガイド",
+    "permalink": "/docusaurus-test/ScalarDL/General/no_label_11042037516559"
+  },
+  "next": {
+    "title": "[一般情報] ScalarDL のドキュメント",
+    "permalink": "/docusaurus-test/ScalarDL/General/scalardl_10300674659599"
+  }
+}

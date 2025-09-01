@@ -1,0 +1,23 @@
+{
+  "id": "ScalarDL/Manage/index",
+  "title": "Manage",
+  "description": "",
+  "source": "@site/docs/ScalarDL/Manage/index.md",
+  "sourceDirName": "ScalarDL/Manage",
+  "slug": "/ScalarDL/Manage/",
+  "permalink": "/docusaurus-test/ScalarDL/Manage/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "[利用方法]  ScalarDLの Function で使用するテーブルの作成方法を教えてください",
+    "permalink": "/docusaurus-test/ScalarDL/Develop/scalardl_10612598636175"
+  },
+  "next": {
+    "title": "Troubleshoot",
+    "permalink": "/docusaurus-test/ScalarDL/Troubleshoot/"
+  }
+}

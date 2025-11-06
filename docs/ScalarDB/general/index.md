@@ -1,4 +1,4 @@
 ---
 sidebar_position: 2
 ---
-# General
+# 一般的な情報
